@@ -1,0 +1,139 @@
+# Q.1 Solve the problem statement : 
+# If n is odd, print Weird
+# If n is even and in the inclusive range of 2 to 5, print Not Weird
+# If n is even and in the inclusive range of 6 to 20, print Weird
+# If n is even and greater than 20, print Not Weird
+
+
+
+
+# Q.2 Solve this :
+# The included code stub will read an integer, n, from STDIN. Without using any string methods,
+# try to print the following: 123……..n
+# Note that "..." represents the consecutive values in between.
+# Example
+# n = 5
+
+# Print the string 12345 .
+
+# Input Format
+# The first line contains an integer n.
+
+# Constraints
+# 1 ≤ n ≤ 150
+# Output Format
+# Print the list of integers from 1 through n as a string, without spaces.
+
+
+
+# Q.3 Task
+# Let’s learn about list comprehension! You are given three integers x, y, and z representing the dimensions of a 
+# cuboid along with an integer n. Print a list of all possible coordinates given by (i, j, k) on a 3D grid where the 
+# sum of i + j + k is not equal to n. Here, 0 <= i <= x; 0 <= j <= y; 0 <= k <= z. Please use list comprehensions rather 
+# than multiple loops, as a learning exercise.
+
+# Example
+# x = 1
+# y = 1
+# z = 2
+# n = 3 
+
+# All permutations of [i, j, k] are:
+# [[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 1, 0], [0, 1, 1], [0, 1, 2], [1, 0, 0], [1, 0, 1], [1, 0, 2], [1, 1, 0], [1, 1, 1], 
+# [1, 1, 2]].
+# Print an array of the elements that do not sum to n = 3.
+# [[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 1, 0], [0, 1, 1], [1, 0, 0], [1, 0, 1],  [1, 1, 0],  [1, 1, 2]]
+# Input Format
+# Four integers x, y, z and n, each on a separate line.
+
+# Constraints
+# Print the list in lexicographic increasing order.
+
+
+
+
+# Q.4 Task
+# Given the participants’ score sheet for your University Sports Day, you must find the runner-up score. You are given n scores.
+# Store them in a list and find the score of the runner-up.
+
+# Input Format
+# The first line contains n. The second line contains an array A[] of n integers are each separated by a space.
+# Constraints
+# 2 ≤  n ≤  10
+# -100 ≤  A[i] ≤ 100
+
+# Output Format
+# Print the runner-up score.
+
+# Sample Input 0
+# 5
+
+# 2 3 6 6 5
+# Sample Output 0
+# 5
+ 
+# Explanation 0
+# The given list is [2, 3, 6, 6, 5]. The maximum score is 6, the second maximum score is 5. Hence, we print 5 as the runner-up 
+# score.
+
+
+
+
+
+
+
+# Q.5 Task
+
+# Given the names and grades for each student in a class of N students, store them in a nested list and print the name(s) of any
+# student(s) having the second lowest grade.
+
+
+# Note: If there are multiple students with the second lowest grade, order their names alphabetically and print each name on a 
+# new line.
+
+# Example
+# records  = [[ “chi”, 20.0]], [“beta”, 50.0], [“alpha”, 50.0]
+
+# The ordered list of scores is [20.0, 50.0], so the second lowest score is 50.0. There are two students with that score: 
+# [“beta”, “alpha”]. Ordered alphabetically, the names are printed as:
+
+# alpha
+
+# beta
+ 
+# Input Format
+# The first line contains an integer,n, the number of students.
+
+# The 2N subsequent lines describe each student over lines.
+
+
+# The first line contains a student’s name.
+# The second line contains their grade.
+# Constraints
+
+# 2 <= N <= 5
+# There will always be one or more students having the second lowest grade.
+ 
+# Output Format
+# Print the name(s) of any student(s) having the second lowest grade in. If there are multiple students, order their names 
+# alphabetically and print each one on a new line.
+
+# Sample Input 0
+# 5
+# Harry
+# 37.21
+# Berry
+# 37.21
+# Tina
+# 37.2
+# Akriti
+# 41
+# Harsh
+# 39
+
+
+# Sample Output 0
+# Berry
+
+# Harry
+
